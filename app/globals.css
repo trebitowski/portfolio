@@ -4,6 +4,6 @@
 
 @layer base {
   :root {
-    @apply text-white bg-gray-900;
+    @apply text-emerald-50 bg-gray-900;
   }
 }
