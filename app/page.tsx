@@ -67,7 +67,7 @@ export default function Home() {
             />
           </a>
           <a
-            href="/documents/TylerTrebitowskiResume.pdf"
+            href="https://docs.google.com/document/d/1VVvtNMdfjUk9LlJa127mBeSND2eiF1lukPGCMr5miAg/export?format=pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
