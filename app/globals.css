@@ -4,6 +4,6 @@
 
 @layer base {
   :root {
-    @apply text-white;
+    @apply text-white bg-gray-900;
   }
 }

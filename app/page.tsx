@@ -5,7 +5,7 @@ export default function Home() {
     <main>
       <section className="flex min-h-screen p-4 flex-col items-center justify-center relative bg-cover bg-[url('/background.jpg')]">
         <div
-          className="bg-gradient bg-gradient-to-br from-cyan-600/95 to-violet-600/95 absolute inset-0 backdrop-grayscale"
+          className="bg-gradient bg-gradient-to-br from-cyan-600/95 to-emerald-600/95 absolute inset-0 backdrop-grayscale"
           role="presentation"
         />
         <Image
@@ -22,9 +22,7 @@ export default function Home() {
         >
           Tyler Trebitowski
         </h1>
-        <h2 className="z-10 tracking-wide text-lg mb-7">
-          React Fullstack Developer
-        </h2>
+        <h2 className="z-10 tracking-wide text-lg mb-7">Fullstack Developer</h2>
         <div className="z-10 flex space-x-10 flex-wrap">
           <a
             href="https://www.linkedin.com/in/trebitowski/"

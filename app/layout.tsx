@@ -13,7 +13,7 @@ const roboto = Roboto_Serif({
 export const metadata: Metadata = {
   title: "Tyler Trebitowski",
   description:
-    "Experienced React Fullstack Developer offering strategic leadership and innovation, contributing to the success of both startups and established organizations",
+    "Experienced Fullstack Developer offering strategic leadership and innovation, contributing to the success of both startups and established organizations",
 };
 
 export default function RootLayout({
