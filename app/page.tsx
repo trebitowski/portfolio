@@ -3,19 +3,11 @@ import LinkedinIcon from "./icons/linkedin";
 import DownloadIcon from "./icons/download";
 import GmailIcon from "./icons/gmail";
 import GithubIcon from "./icons/github";
+import LinkIcon from "./icons/link";
 
 export default function Home() {
   return (
     <main className="flex p-8 flex-col pt-24 md:pt-48 items-center relative">
-      <div
-        role="presentation"
-        className="-z-10 absolute flex min-h-screen top-0 w-full bg-cover bg-[url('/background.jpg')]"
-      >
-        <div className="bg-gradient-to-br from-gray-600/95 to-gray-900/95 absolute inset-0 backdrop-grayscale" />
-        <div className="bg-gradient-to-br from-emerald-600/30 to-emerald-900/30 absolute inset-0 backdrop-grayscale" />
-        <div className="z-10 absolute right-0 left-0 bottom-0 bg-gradient-to-t from-gray-900 h-3/4"></div>
-      </div>
-
       <section className="z-20 max-w-xl mb-24">
         <div className="z-10 flex space-x-7 items-start">
           <div className="rounded-full bg-gradient-to-br from-emerald-500/80 to-cyan-400/80 shadow-lg p-1 ring-[5px] ring-emerald-400/20 mb-7">
@@ -120,14 +112,120 @@ export default function Home() {
         </div>
       </section>
       <section className="z-20 max-w-xl mb-16">
-        <h2 id="Projects" className="font-script text-2xl">
-          Projects
+        <h2 id="Projects" className="font-script text-2xl mb-8">
+          Featured Projects
         </h2>
-        <p className="text-xl text-emerald-50/70 mb-7">
-          I am a fullstack developer dedicated to pushing boundaries and
-          delivering high-quality software, setting new standards in the digital
-          realm.
-        </p>
+        <div className="mb-12">
+          <Image
+            src="/projects/mudy.png"
+            width={850}
+            height={600}
+            alt="Mudy - The personal mood journal that understand the true you."
+            className="rounded-xl mb-4"
+          />
+          <h3 className="text-xl font-script tracking-wide leading-relaxed">
+            Müdy
+          </h3>
+          <p className="tracking-wide leading-relaxed mb-2.5">
+            A personal journal that uses AI to analyze my entries and log my
+            mood over the course of the year. Built with Next 13 and typescript.
+          </p>
+          <div className="flex space-x-6">
+            <a
+              className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70"
+              href="https://github.com/trebitowski/mudy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GithubIcon
+                aria-hidden="true"
+                className="w-[26px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
+              />
+            </a>
+          </div>
+        </div>
+        <div className="mb-12">
+          <Image
+            src="/projects/pomodoro-timer.png"
+            width={850}
+            height={600}
+            alt="A distraction free productivity timer"
+            className="rounded-xl mb-4"
+          />
+          <h3 className="text-xl font-script tracking-wide leading-relaxed">
+            Pomodoro
+          </h3>
+          <p className="tracking-wide leading-relaxed mb-2.5">
+            A distraction free productivity timer based on the Pomodoro method.
+            Built with Next.js and uses service workers to maintain accuracy
+            while running in the background.
+          </p>
+          <div className="flex space-x-3">
+            <a
+              className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70"
+              href="https://github.com/trebitowski/pomodoro"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GithubIcon
+                aria-hidden="true"
+                className="w-[26px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
+              />
+            </a>
+            <a
+              className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70 p-0.5"
+              href="https://pomodoro.trebitowski.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LinkIcon
+                aria-hidden="true"
+                className="w-[22px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
+              />
+            </a>
+          </div>
+        </div>
+        <div>
+          <Image
+            src="/projects/swiss-cheese-rapids.png"
+            width={850}
+            height={600}
+            alt="Mudy - The personal mood journal that understand the true you."
+            className="rounded-xl mb-4"
+          />
+          <h3 className="text-xl font-script tracking-wide leading-relaxed">
+            Swiss Cheese Rapids
+          </h3>
+          <p className="tracking-wide leading-relaxed mb-2.5">
+            A browser game where you have to compete for a highscore by
+            collecting cheese and dodging obstacles. Built with Unity for a
+            72-hour game jam competition.
+          </p>
+          <div className="flex space-x-3">
+            <a
+              className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70"
+              href="https://github.com/trebitowski/swiss-cheese-rapids"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GithubIcon
+                aria-hidden="true"
+                className="w-[26px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
+              />
+            </a>
+            <a
+              className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70 p-0.5"
+              href="https://trebitowski.itch.io/swiss-cheese-rapids"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LinkIcon
+                aria-hidden="true"
+                className="w-[22px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
+              />
+            </a>
+          </div>
+        </div>
       </section>
     </main>
   );

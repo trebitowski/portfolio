@@ -24,6 +24,29 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} ${roboto.variable} overscroll-none`}>
+        <svg
+          className="pointer-events-none fixed isolate opacity-30 mix-blend-soft-light"
+          width="100%"
+          height="100%"
+        >
+          <filter id="bg-grain">
+            <feTurbulence
+              type="fractalNoise"
+              baseFrequency="0.83"
+              numOctaves="3"
+              stitchTiles="stitch"
+            />
+          </filter>
+          <rect width="100%" height="100%" filter="url(#bg-grain)"></rect>
+        </svg>
+        <div
+          role="presentation"
+          className="-z-10 absolute flex min-h-screen top-0 w-full bg-cover bg-[url('/background.jpg')]"
+        >
+          <div className="bg-gradient-to-br from-gray-600/95 to-gray-900/95 absolute inset-0 backdrop-grayscale" />
+          <div className="bg-gradient-to-br from-emerald-600/30 to-emerald-900/30 absolute inset-0 backdrop-grayscale" />
+          <div className="z-10 absolute right-0 left-0 bottom-0 bg-gradient-to-t from-gray-900 h-3/4"></div>
+        </div>
         {children}
       </body>
     </html>
