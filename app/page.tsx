@@ -130,18 +130,23 @@ export default function Home() {
             A personal journal that uses AI to analyze my entries and log my
             mood over the course of the year. Built with Next 13 and typescript.
           </p>
-          <div className="flex space-x-6">
-            <a
-              className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70"
-              href="https://github.com/trebitowski/mudy"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GithubIcon
-                aria-hidden="true"
-                className="w-[26px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
-              />
-            </a>
+          <div className="flex justify-between items-center">
+            <p className="uppercase tracking-[0.2em] text-emerald-400/80 text-sm">
+              Next.js / tailwind / Openai
+            </p>
+            <div className="flex space-x-6">
+              <a
+                className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70"
+                href="https://github.com/trebitowski/mudy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GithubIcon
+                  aria-hidden="true"
+                  className="w-[26px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
+                />
+              </a>
+            </div>
           </div>
         </div>
         <div className="mb-12">
@@ -160,29 +165,34 @@ export default function Home() {
             Built with Next.js and uses service workers to maintain accuracy
             while running in the background.
           </p>
-          <div className="flex space-x-3">
-            <a
-              className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70"
-              href="https://github.com/trebitowski/pomodoro"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GithubIcon
-                aria-hidden="true"
-                className="w-[26px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
-              />
-            </a>
-            <a
-              className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70 p-0.5"
-              href="https://pomodoro.trebitowski.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <LinkIcon
-                aria-hidden="true"
-                className="w-[22px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
-              />
-            </a>
+          <div className="flex justify-between items-center">
+            <p className="uppercase tracking-[0.2em] text-emerald-400/80 text-sm">
+              Next.js / tailwind
+            </p>
+            <div className="flex space-x-3">
+              <a
+                className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70"
+                href="https://github.com/trebitowski/pomodoro"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GithubIcon
+                  aria-hidden="true"
+                  className="w-[26px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
+                />
+              </a>
+              <a
+                className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70 p-0.5"
+                href="https://pomodoro.trebitowski.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LinkIcon
+                  aria-hidden="true"
+                  className="w-[22px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
+                />
+              </a>
+            </div>
           </div>
         </div>
         <div>
@@ -201,29 +211,34 @@ export default function Home() {
             collecting cheese and dodging obstacles. Built with Unity for a
             72-hour game jam competition.
           </p>
-          <div className="flex space-x-3">
-            <a
-              className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70"
-              href="https://github.com/trebitowski/swiss-cheese-rapids"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GithubIcon
-                aria-hidden="true"
-                className="w-[26px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
-              />
-            </a>
-            <a
-              className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70 p-0.5"
-              href="https://trebitowski.itch.io/swiss-cheese-rapids"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <LinkIcon
-                aria-hidden="true"
-                className="w-[22px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
-              />
-            </a>
+          <div className="flex justify-between items-center">
+            <p className="uppercase tracking-[0.2em] text-emerald-400/80 text-sm">
+              Unity / Project management
+            </p>
+            <div className="flex space-x-3">
+              <a
+                className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70"
+                href="https://github.com/trebitowski/swiss-cheese-rapids"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GithubIcon
+                  aria-hidden="true"
+                  className="w-[26px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
+                />
+              </a>
+              <a
+                className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70 p-0.5"
+                href="https://trebitowski.itch.io/swiss-cheese-rapids"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LinkIcon
+                  aria-hidden="true"
+                  className="w-[22px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </section>
