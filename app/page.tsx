@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="flex p-8 flex-col pt-24 md:pt-48 items-center relative">
       <section className="z-20 max-w-xl mb-24">
-        <div className="z-10 flex space-x-7 items-start">
+        <div className="z-10 flex space-x-7 items-start mb-2">
           <div className="rounded-full bg-gradient-to-br from-emerald-500/80 to-cyan-400/80 shadow-lg p-1 ring-[5px] ring-emerald-400/20 mb-7">
             <div className="rounded-full h-[64px] w-[64px]">
               <Image
@@ -27,16 +27,15 @@ export default function Home() {
               Tyler Trebitowski
             </h1>
             <p className="z-20 tracking-wider text-xl font-light text-emerald-50/90">
-              Proven Fullstack Developer
+              Fullstack Developer
             </p>
           </div>
         </div>
         <p className="text-xl text-emerald-50/80 mb-7">
-          I am a fullstack developer dedicated to pushing boundaries and
-          delivering high-quality software, setting new standards in the digital
-          realm.
+          I am dedicated to pushing boundaries and delivering high-quality
+          software.
         </p>
-        <div className="z-20 flex space-x-7 flex-wrap">
+        <div className="z-20 flex gap-7 flex-wrap">
           <a
             className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70"
             href="https://www.linkedin.com/in/trebitowski/"
@@ -162,7 +161,7 @@ export default function Home() {
           </h3>
           <p className="tracking-wide leading-relaxed mb-2.5">
             A distraction free productivity timer based on the Pomodoro method.
-            Built with Next.js and uses service workers to maintain accuracy
+            Built with Next 13 and uses service workers to maintain accuracy
             while running in the background.
           </p>
           <div className="flex justify-between items-center">
