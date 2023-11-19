@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Roboto_Serif } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -48,6 +49,7 @@ export default function RootLayout({
           <div className="z-10 absolute right-0 left-0 bottom-0 bg-gradient-to-t from-gray-900 h-3/4"></div>
         </div>
         {children}
+        <Analytics />
       </body>
     </html>
   );
