@@ -145,7 +145,7 @@ export default function Home() {
                   aria-hidden="true"
                   className="w-[26px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
                 />
-                <span className="sr-only>">View on Github</span>
+                <span className="sr-only">View on Github</span>
               </a>
             </div>
           </div>
@@ -181,7 +181,7 @@ export default function Home() {
                   aria-hidden="true"
                   className="w-[26px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
                 />
-                <span className="sr-only>">View on Github</span>
+                <span className="sr-only">View on Github</span>
               </a>
               <a
                 className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70 p-0.5"
@@ -193,7 +193,7 @@ export default function Home() {
                   aria-hidden="true"
                   className="w-[22px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
                 />
-                <span className="sr-only>">View website</span>
+                <span className="sr-only">View website</span>
               </a>
             </div>
           </div>
@@ -229,7 +229,7 @@ export default function Home() {
                   aria-hidden="true"
                   className="w-[26px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
                 />
-                <span className="sr-only>">View on Github</span>
+                <span className="sr-only">View on Github</span>
               </a>
               <a
                 className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70 p-0.5"
@@ -241,7 +241,7 @@ export default function Home() {
                   aria-hidden="true"
                   className="w-[22px] text-emerald-50 opacity-50 group-hover:opacity-100 transition duration-300 ease-out"
                 />
-                <span className="sr-only>">View website</span>
+                <span className="sr-only">View website</span>
               </a>
             </div>
           </div>
