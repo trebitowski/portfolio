@@ -115,14 +115,22 @@ export default function Home() {
           Featured Projects
         </h2>
         <div className="mb-12">
-          <Image
-            src="/projects/mudy.png"
-            width={580}
-            height={410}
-            alt="Mudy - The personal mood journal that understand the true you."
-            className="rounded-xl mb-4"
-            priority
-          />
+          <a
+            className="block p-2 rounded-[20px] bg-gradient-to-br from-emerald-500/80 to-cyan-400/80 mb-4"
+            href="https://github.com/trebitowski/mudy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/projects/mudy.png"
+              width={560}
+              height={395}
+              alt="Mudy - The personal mood journal that understand the true you."
+              className="rounded-xl"
+              priority
+            />
+            <span className="sr-only">View project</span>
+          </a>
           <h3 className="text-xl font-script tracking-wide leading-relaxed">
             Müdy
           </h3>
@@ -151,13 +159,22 @@ export default function Home() {
           </div>
         </div>
         <div className="mb-12">
-          <Image
-            src="/projects/pomodoro-timer.png"
-            width={580}
-            height={410}
-            alt="A distraction free productivity timer"
-            className="rounded-xl mb-4"
-          />
+          <a
+            className="block p-2 rounded-[20px] bg-gradient-to-br from-emerald-500/80 to-cyan-400/80 mb-4"
+            href="https://pomodoro.trebitowski.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/projects/pomodoro.png"
+              width={560}
+              height={315}
+              alt="A distraction free productivity timer"
+              className="rounded-xl"
+            />
+            <span className="sr-only">View project</span>
+          </a>
+
           <h3 className="text-xl font-script tracking-wide leading-relaxed">
             Pomodoro
           </h3>
@@ -199,13 +216,22 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <Image
-            src="/projects/swiss-cheese-rapids.png"
-            width={580}
-            height={410}
-            alt="Mudy - The personal mood journal that understand the true you."
-            className="rounded-xl mb-4"
-          />
+          <a
+            className="block p-2 rounded-[20px] bg-gradient-to-br from-emerald-500/80 to-cyan-400/80 mb-4"
+            href="https://trebitowski.itch.io/swiss-cheese-rapids"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/projects/swiss-cheese-rapids.png"
+              width={560}
+              height={375}
+              alt="Mudy - The personal mood journal that understand the true you."
+              className="rounded-xl"
+            />
+            <span className="sr-only">View project</span>
+          </a>
+
           <h3 className="text-xl font-script tracking-wide leading-relaxed">
             Swiss Cheese Rapids
           </h3>
