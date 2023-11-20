@@ -117,8 +117,8 @@ export default function Home() {
         <div className="mb-12">
           <Image
             src="/projects/mudy.png"
-            width={850}
-            height={600}
+            width={580}
+            height={410}
             alt="Mudy - The personal mood journal that understand the true you."
             className="rounded-xl mb-4"
             priority
@@ -153,8 +153,8 @@ export default function Home() {
         <div className="mb-12">
           <Image
             src="/projects/pomodoro-timer.png"
-            width={850}
-            height={600}
+            width={580}
+            height={410}
             alt="A distraction free productivity timer"
             className="rounded-xl mb-4"
           />
@@ -201,8 +201,8 @@ export default function Home() {
         <div>
           <Image
             src="/projects/swiss-cheese-rapids.png"
-            width={850}
-            height={600}
+            width={580}
+            height={410}
             alt="Mudy - The personal mood journal that understand the true you."
             className="rounded-xl mb-4"
           />
