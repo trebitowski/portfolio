@@ -44,9 +44,9 @@ export default function RootLayout({
           role="presentation"
           className="-z-10 absolute flex min-h-screen top-0 w-full bg-cover bg-[url('/background.jpg')]"
         >
-          <div className="bg-gradient-to-br from-gray-600/95 to-gray-900/95 absolute inset-0 backdrop-grayscale" />
-          <div className="bg-gradient-to-br from-emerald-600/30 to-emerald-900/30 absolute inset-0 backdrop-grayscale" />
-          <div className="z-10 absolute right-0 left-0 bottom-0 bg-gradient-to-t from-gray-900 h-3/4"></div>
+          <div className="bg-linear-to-br from-gray-600/95 to-gray-900/95 absolute inset-0 backdrop-grayscale" />
+          <div className="bg-linear-to-br from-emerald-600/30 to-emerald-900/30 absolute inset-0 backdrop-grayscale" />
+          <div className="z-10 absolute right-0 left-0 bottom-0 bg-linear-to-t from-gray-900 h-3/4"></div>
         </div>
         {children}
         <Analytics />

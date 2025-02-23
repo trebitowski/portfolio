@@ -10,7 +10,7 @@ export default function Home() {
     <main className="flex p-8 flex-col pt-24 md:pt-48 items-center relative">
       <section className="z-20 max-w-xl mb-24">
         <div className="z-10 flex space-x-7 items-start mb-2">
-          <div className="rounded-full bg-gradient-to-br from-emerald-500/80 to-cyan-400/80 shadow-lg p-1 ring-[5px] ring-emerald-400/20 mb-7">
+          <div className="rounded-full bg-linear-to-br from-emerald-500/80 to-cyan-400/80 shadow-lg p-1 ring-[5px] ring-emerald-400/20 mb-7">
             <div className="rounded-full h-[64px] w-[64px]">
               <Image
                 height={295}
@@ -37,14 +37,14 @@ export default function Home() {
         </p>
         <div className="z-20 flex gap-7 flex-wrap">
           <a
-            className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70"
+            className="group focus:outline-hidden focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-emerald-300/70"
             href="https://www.linkedin.com/in/trebitowski/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div className="sm:flex sm:items-center sm:space-x-2">
               <div className="mb-1.5 flex justify-center sm:mb-0 sm:block">
-                <div className="rounded-lg bg-gradient-to-br from-emerald-500/80 to-cyan-400/80 p-1 shadow-lg transition-all duration-300 ease-out group-hover:scale-[1.2] group-hover:rounded-[10px] group-hover:shadow-emerald-500/40 group-active:translate-y-1">
+                <div className="rounded-lg bg-linear-to-br from-emerald-500/80 to-cyan-400/80 p-1 shadow-lg transition-all duration-300 ease-out group-hover:scale-[1.2] group-hover:rounded-[10px] group-hover:shadow-emerald-500/40 group-active:translate-y-1">
                   <LinkedinIcon
                     aria-hidden="true"
                     className="w-[18px] transform text-emerald-100 transition delay-100 duration-500 ease-out group-hover:scale-110"
@@ -55,14 +55,14 @@ export default function Home() {
             </div>
           </a>
           <a
-            className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70"
+            className="group focus:outline-hidden focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-emerald-300/70"
             href="https://www.github.com/trebitowski/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div className="sm:flex sm:items-center sm:space-x-2">
               <div className="mb-1.5 flex justify-center sm:mb-0 sm:block">
-                <div className="rounded-lg bg-gradient-to-br from-emerald-500/80 to-cyan-400/80 p-1 shadow-lg transition-all duration-300 ease-out group-hover:scale-[1.2] group-hover:rounded-[10px] group-hover:shadow-emerald-500/40 group-active:translate-y-1">
+                <div className="rounded-lg bg-linear-to-br from-emerald-500/80 to-cyan-400/80 p-1 shadow-lg transition-all duration-300 ease-out group-hover:scale-[1.2] group-hover:rounded-[10px] group-hover:shadow-emerald-500/40 group-active:translate-y-1">
                   <GithubIcon
                     aria-hidden="true"
                     className="w-[18px] transform text-emerald-100 transition delay-100 duration-500 ease-out group-hover:scale-110"
@@ -73,14 +73,14 @@ export default function Home() {
             </div>
           </a>
           <a
-            className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70"
+            className="group focus:outline-hidden focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-emerald-300/70"
             href="mailto:tyler.trebitowski@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div className="sm:flex sm:items-center sm:space-x-2">
               <div className="mb-1.5 flex justify-center sm:mb-0 sm:block">
-                <div className="rounded-lg bg-gradient-to-br from-emerald-500/80 to-cyan-400/80 p-1 shadow-lg transition-all duration-300 ease-out group-hover:scale-[1.2] group-hover:rounded-[10px] group-hover:shadow-emerald-500/40 group-active:translate-y-1">
+                <div className="rounded-lg bg-linear-to-br from-emerald-500/80 to-cyan-400/80 p-1 shadow-lg transition-all duration-300 ease-out group-hover:scale-[1.2] group-hover:rounded-[10px] group-hover:shadow-emerald-500/40 group-active:translate-y-1">
                   <GmailIcon
                     aria-hidden="true"
                     className="w-[18px] transform text-emerald-100 transition delay-100 duration-500 ease-out group-hover:scale-110"
@@ -91,14 +91,14 @@ export default function Home() {
             </div>
           </a>
           <a
-            className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70"
+            className="group focus:outline-hidden focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-emerald-300/70"
             href="https://docs.google.com/document/d/1VVvtNMdfjUk9LlJa127mBeSND2eiF1lukPGCMr5miAg/export?format=pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div className="sm:flex sm:items-center sm:space-x-2">
               <div className="mb-1.5 flex justify-center sm:mb-0 sm:block">
-                <div className="rounded-lg bg-gradient-to-br from-emerald-500/80 to-cyan-400/80 p-1 shadow-lg transition-all duration-300 ease-out group-hover:scale-[1.2] group-hover:rounded-[10px] group-hover:shadow-emerald-500/40 group-active:translate-y-1">
+                <div className="rounded-lg bg-linear-to-br from-emerald-500/80 to-cyan-400/80 p-1 shadow-lg transition-all duration-300 ease-out group-hover:scale-[1.2] group-hover:rounded-[10px] group-hover:shadow-emerald-500/40 group-active:translate-y-1">
                   <DownloadIcon
                     aria-hidden="true"
                     className="w-[18px] transform text-emerald-100 transition delay-100 duration-500 ease-out group-hover:scale-110"
@@ -116,7 +116,7 @@ export default function Home() {
         </h2>
         <div className="mb-12">
           <a
-            className="block p-2 rounded-[20px] bg-gradient-to-br from-emerald-500/80 to-cyan-400/80 mb-4"
+            className="block p-2 rounded-[20px] bg-linear-to-br from-emerald-500/80 to-cyan-400/80 mb-4"
             href="https://github.com/trebitowski/mudy"
             target="_blank"
             rel="noopener noreferrer"
@@ -144,7 +144,7 @@ export default function Home() {
             </p>
             <div className="flex space-x-6">
               <a
-                className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70"
+                className="group focus:outline-hidden focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-emerald-300/70"
                 href="https://github.com/trebitowski/mudy"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -160,7 +160,7 @@ export default function Home() {
         </div>
         <div className="mb-12">
           <a
-            className="block p-2 rounded-[20px] bg-gradient-to-br from-emerald-500/80 to-cyan-400/80 mb-4"
+            className="block p-2 rounded-[20px] bg-linear-to-br from-emerald-500/80 to-cyan-400/80 mb-4"
             href="https://pomodoro.trebitowski.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -189,7 +189,7 @@ export default function Home() {
             </p>
             <div className="flex space-x-3">
               <a
-                className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70"
+                className="group focus:outline-hidden focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-emerald-300/70"
                 href="https://github.com/trebitowski/pomodoro"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -201,7 +201,7 @@ export default function Home() {
                 <span className="sr-only">View on Github</span>
               </a>
               <a
-                className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70 p-0.5"
+                className="group focus:outline-hidden focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-emerald-300/70 p-0.5"
                 href="https://pomodoro.trebitowski.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -217,7 +217,7 @@ export default function Home() {
         </div>
         <div>
           <a
-            className="block p-2 rounded-[20px] bg-gradient-to-br from-emerald-500/80 to-cyan-400/80 mb-4"
+            className="block p-2 rounded-[20px] bg-linear-to-br from-emerald-500/80 to-cyan-400/80 mb-4"
             href="https://trebitowski.itch.io/swiss-cheese-rapids"
             target="_blank"
             rel="noopener noreferrer"
@@ -246,7 +246,7 @@ export default function Home() {
             </p>
             <div className="flex space-x-3">
               <a
-                className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70"
+                className="group focus:outline-hidden focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-emerald-300/70"
                 href="https://github.com/trebitowski/swiss-cheese-rapids"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -258,7 +258,7 @@ export default function Home() {
                 <span className="sr-only">View on Github</span>
               </a>
               <a
-                className="group focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300/70 p-0.5"
+                className="group focus:outline-hidden focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-emerald-300/70 p-0.5"
                 href="https://trebitowski.itch.io/swiss-cheese-rapids"
                 target="_blank"
                 rel="noopener noreferrer"
